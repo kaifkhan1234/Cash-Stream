@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -8,32 +8,47 @@ html, body {
 header {
   background-color: #6225ba;
   color: #fff;
-  padding: 20px;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .box1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start; 
+  align-items: flex-start;
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
-  height: 740px; 
+  height: 600px;
+  background-color: #6225ba;
 }
 
 
 .cash-stream {
-
-  font-size: 36px;
+  font-size: 30px;
   align-self: auto;
+  font-family: sans-serif;
+  margin: 20px;
+  width: 230px;
+  margin-left: 95px;
+  color: #42b4ee;
 }
 
 
 nav {
+
+  font-size: 15px;
   display: flex;
-  gap: 10px;
-  align-items: center; 
+  align-items: center;
+  font-family: sans-serif;
+  margin-right: 100px;
+
 }
 
 nav a {
@@ -53,13 +68,14 @@ nav a:hover {
 
 
 .tagline {
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
-h3 {
+.tagline2 {
   margin: 0;
-  color: #42b4ee;
+  color: white;
   font-weight: bold;
+  font-size: 45px;
 }
 
 
@@ -67,48 +83,82 @@ h3 {
   flex: 1;
   max-width: 60%;
   padding-right: 20px;
+  font-family: sans-serif;
+  margin: 80px;
 }
 
-h2 {
-  margin-top: 20px; 
-  color: #42b4ee;
+.tagline1{
+  color: white;
   font-weight: bold;
+  margin: 0px;
+  font-size: 30px;
 }
 
-p {
+.tagline-description{
   margin: 20px 0;
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
 
-.join, .signup {
-  display: inline-block;
+
+.signup {
+  display: flex;
   text-decoration: none;
   color: #fff;
-  background-color: #007bff;
+  background-color: #42b4ee;
   padding: 10px 20px;
   border-radius: 5px;
+  height: 20px;
+  font-family: sans-serif;
+  width: 60px;
+  margin-left: 30px;
+  justify-content: center;
+  margin-right: 15px;
   transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
 }
 
-.join:hover, .signup:hover {
-  background-color: #aa7df0;
-}
 
+.signup:hover {
+  background-color: #aa7df0;
+  color: white;
+}
+.join{
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  background-color: #42b4ee;
+  border-radius: 5px;
+  height: 45px;
+  font-size: 15px;
+  font-family: sans-serif;
+  width: 140px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+  align-items: center;
+}
+.join:hover{
+  background-color: #aa7df0;
+  color: white;
+}
 .image-container {
   flex: 1;
-  max-width: 40%;
+  max-width: 50%;
   text-align: right;
 }
 
-.image-container img {
-  width: 100%;
-  height: auto;
-}
-.box2{
+
+
+.box2 {
   height: 700px;
   width: 100%;
   background-color: white;
+}
+
+  .Group-396 {
+    height: 350px;
+    margin-top: 60px;
 }
