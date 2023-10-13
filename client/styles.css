@@ -161,6 +161,16 @@ nav a:hover {
   height: 700px;
   width: 100%;
   background-color: white;
+  font-family: sans-serif;
+  margin-top: 120px;
+}
+.box2imgbox{
+  width: 40%;
+}
+.box2_img{
+  height: 350px;
+  width: 420px;
+
 }
 
   .Group-396 {
@@ -170,14 +180,14 @@ nav a:hover {
 
 .box3_1{
   display: flex;
-  flex: wrap;
+  flex-wrap: wrap;
   font-family: sans-serif;
   text-align: center;
   margin: auto;;
 }
 .rectangle2{
   margin: 15px;
-  width: 500px;
+  width: 280px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   min-height: 350px;
@@ -185,7 +195,7 @@ nav a:hover {
 }
 .rectangle1{
   margin: 15px;
-  width: 500px;
+  width: 280px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   min-height: 350px;
@@ -193,7 +203,7 @@ nav a:hover {
 }
 .rectangle3{
   margin: 15px;
-  width: 500px;
+  width: 280px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   min-height: 350px;
@@ -202,7 +212,7 @@ nav a:hover {
 .rectangle4{
 
   margin: 15px;
-  width: 500px;
+  width: 280px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   min-height: 350px;
