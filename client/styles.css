@@ -315,7 +315,6 @@ opacity: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
     
  }
  .image-box1
@@ -350,4 +349,7 @@ opacity: 100%;
  {
    color: grey;
  }
-  
+.box3{
+  height: 600px;
+  width: 100%;
+}
