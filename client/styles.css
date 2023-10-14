@@ -308,3 +308,46 @@ opacity: 100%;
   position: absolute;
   top: 220px;
 }
+
+.box-2-1
+ {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    
+ }
+ .image-box1
+ {
+    height: 400px;
+    width: 50%;
+ }
+ 
+ .image-box2
+ {
+    
+    height: 400px;
+    width: 50%;
+     
+
+    
+ }
+ .title-section-2
+ {
+   font-weight: 600;
+   font-family: sans-serif;
+   font-size:50px;
+ }
+ .heading-section-2
+ {
+   
+    
+   font-family: sans-serif;
+   font-size:30px;
+ }
+ .section-des-2
+ {
+   color: grey;
+ }
+  
