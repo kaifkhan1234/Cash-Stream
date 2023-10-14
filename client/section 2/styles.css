@@ -1,0 +1,21 @@
+ .box-2-1
+ {
+    display: flex;
+    position: absolute;
+    
+ }
+ .box1
+ {
+    height: 400px;
+    width: 500px;
+ }
+ 
+ .box2
+ {
+    height: 400px;
+    width: 500px;
+    left: 200px;
+    
+ }
+  
+
