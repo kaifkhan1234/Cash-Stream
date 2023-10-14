@@ -321,10 +321,15 @@ opacity: 100%;
  }
  .image-box1
  {
-    height: 400px;
+    height: 100%;
+    display: flex;
     width: 50%;
+    justify-content: center;
+    align-items: center;
  }
- 
+ .img-box1{
+       width: 80%;
+ }
  .image-box2
  {
     
