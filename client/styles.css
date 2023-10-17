@@ -182,9 +182,10 @@ nav a:hover {
 .box3_1{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   font-family: sans-serif;
   text-align: center;
-  margin: auto;;
+  margin: auto;
 }
 .rectangle2{
   margin: 15px;
@@ -247,6 +248,7 @@ nav a:hover {
   position: relative;
   min-height: 350px;
   min-width: 225px;
+
 }
 .rec-img{
   width: 100%;
@@ -319,10 +321,15 @@ opacity: 100%;
  }
  .image-box1
  {
-    height: 400px;
+    height: 100%;
+    display: flex;
     width: 50%;
+    justify-content: center;
+    align-items: center;
  }
- 
+ .img-box1{
+       width: 80%;
+ }
  .image-box2
  {
     
