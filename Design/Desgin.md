@@ -18,5 +18,6 @@ https://www.figma.com/file/05x7E5SwEBdLKJasKBj0nc/Cash-Stream?type=design&node-i
 
 https://www.figma.com/file/0X5eBt6w792upFzoqxYFEp/Cash-Stream---(Signup-and-Login)?type=design&node-id=0%3A1&mode=design&t=ZTNXs8j6F4ziLVv6-1
 
-### Signup and Login design for Desktop
+### Signup and Login design for Mobile
+https://www.figma.com/file/0X5eBt6w792upFzoqxYFEp/Cash-Stream---(Signup-and-Login)?type=design&node-id=1-2&mode=design
 
