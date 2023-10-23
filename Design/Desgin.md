@@ -2,6 +2,8 @@
 1. [Landing Page](#Landing-Page)
 2. [Signup and Login](#Signup-and-Login)
 
+<hr>
+
 <a id="Landing-Page"></a>
 
 ### Landing Page Design for Desktop
@@ -11,6 +13,7 @@ https://www.figma.com/file/05x7E5SwEBdLKJasKBj0nc/Cash-Stream?type=design&node-i
 
 https://www.figma.com/file/05x7E5SwEBdLKJasKBj0nc/Cash-Stream?type=design&node-id=51%3A3192&mode=design&t=jTdgZhleS1P0eMSp-1
 
+<hr> 
 
 <a id="Signup-and-Login"></a>
 
