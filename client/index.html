@@ -11,7 +11,7 @@
 <body>
   <header>
     <h1 class="cash-stream">Cash Stream</h1>
-    <nav>
+    <nav class="desktop-nav">
       <a href="#">Home</a>
       <a href="#">Services</a>
       <a href="#">Pricing</a>
@@ -19,8 +19,18 @@
       <a href="#">Blog</a>
       <a href="#" class="signup">Sign up</a>
     </nav>
+    <img onclick="toggleNav()" src="images\Rectangle 79.svg" class="hamBurger-icon" alt="">
   </header>
-
+  <div class="menu disabled" id="disabled">
+    <nav class="mobile-nav">
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Pricing</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Blog</a>
+      <a href="#" class="signup">Sign up</a>
+    </nav>
+  </div>
   <div class="box1">
 
     <div class="content">
@@ -30,9 +40,7 @@
       </div>
       <div class="heading-below">
         <h2 class="tagline2">From Save, To Grow.</h2>
-        <p class="tagline-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod commodo
-          sapien, non suscipit dui varius
-          id. Fusce bibendum in sapien vel venenatis. Integer aliquam tortor nec odio lacinia, nec blandit odio auctor.
+        <p class="tagline-description">Mutual funds are subject to market risk. Read all scheme-related documents carefully.
         </p>
         <a href="#" class="join">Join the Secret</a>
       </div>
@@ -42,8 +50,8 @@
     </div>
   </div>
   <div class="box-2-1">
-        <div class="image-box1">
-        <img src="images/Group.png" alt="" class="img-box1"  />
+        <div class="image-box1" id="desktop">
+        <img src="images/Group.png" alt="" class="img-box1"   />
       </div>
   
       <div class="image-box2">
@@ -76,6 +84,9 @@
           Lorem quae corporis quam, neque sapiente necessitatibus, nesciunt
           quaerat tempora ullam non eaque.
         </p>
+      </div>
+      <div class="image-box1" id="mobile">
+        <img src="images/Group.png" alt="" class="img-box1"   />
       </div>
     </div>
   <div class="box3">
@@ -171,5 +182,7 @@
   </div>
   </div>
 </footer>
+<script src="script.js"></script>
 </body>
+
 </html>
