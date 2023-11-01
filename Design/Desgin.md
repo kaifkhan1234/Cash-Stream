@@ -1,6 +1,7 @@
 # Table of Content
 1. [Landing Page](#Landing-Page)
 2. [Signup and Login](#Signup-and-Login)
+3. [Dashboard](#Dashboard)
 
 <hr>
 
@@ -24,3 +25,10 @@ https://www.figma.com/file/0X5eBt6w792upFzoqxYFEp/Cash-Stream---(Signup-and-Logi
 ### Signup and Login design for Mobile
 https://www.figma.com/file/0X5eBt6w792upFzoqxYFEp/Cash-Stream---(Signup-and-Login)?type=design&node-id=1-2&mode=design
 
+<a id="Dashboard"></a>
+
+### Dashboard design for Desktop
+
+https://www.figma.com/file/zA7ijpWqb2046iedn74af0/Dashboard---Cash-Stream?type=design&node-id=0%3A1&mode=dev
+
+### Dashboard design for Mobile
